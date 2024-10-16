@@ -87,7 +87,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
         const { connection, lastDisconnect } = s
         if (connection == "open") {
             await delay(1000 * 10)
-            await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `🪀Support/Contact Developer\n\n\n⎆Donate: https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg\n\n⎆YouTube: https://youtube.com/@AnonymousKing-pb7gg\n\n⎆Telegram Channel: https://t.me/samzie33\n\n⎆Tiktok post: \n\n⎆WhatsApp Gc1: https://chat.whatsapp.com/Kjm8rnDFcpb04gQNSTbW2d\n\n⎆WhatsApp Gc2: https://chat.whatsapp.com/EEOnU0V7dl9HF1mMFO8QWa\n\n⎆WhatsApp Gc3: https://chat.whatsapp.com/Dh0lD0Ee5hN1JMFXNqtxSG\n\n⎆WhatsApp Pm: Wa.me/916909137213\n\n⎆Instagram: https://instagram.com/unicorn_xeon13\n\n⎆GitHub: https://github.com/DGXeon/\n\n⎆Blog: https://dreamguyxeonfiles.blogspot.com/2022/05/bots%20whatsapp%20mods.html?m=1\n\n\n` });
+            await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `🪀Support/Contact Developer\n\n\n⎆Donate: https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg\n\n⎆YouTube: https://youtube.com/@AnonymousKing-pb7gg\n\n⎆Telegram Channel: https://t.me/samzie33\n\n⎆Tiktok post:https://www.tiktok.com/@animexanonymous1\n\n⎆WhatsApp Gc1: https://whatsapp.com/channel/0029Vafy50bB4hdZV9YAAn2r\n\n⎆WhatsApp Gc2:https://chat.whatsapp.com/BjHW7El8xPyKSTEwcVnPSj\n\n⎆WhatsApp Gc3: https://chat.whatsapp.com/JdeCoqceB6kGgkPZdylR5J\n\n⎆WhatsApp Pm: Wa.me/2349137924240\n\n⎆\n\n⎆GitHub: https://github.com/SHADOWHACKERS-lab/\n\n\n` });
             let sessionXeon = fs.readFileSync('./sessions/creds.json');
             await delay(1000 * 2) 
              const xeonses = await  XeonBotInc.sendMessage(XeonBotInc.user.id, { document: sessionShadow, mimetype: `application/json`, fileName: `creds.json` })
@@ -95,9 +95,9 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
 ┌─❖
 │ Ohayo 😽
 └┬❖  
-┌┤✑  Thanks for using X-PairCode
+┌┤✑  Thanks for using shadow-PairCode
 │└────────────┈ ⳹        
-│©2020-2023 XeonBotInc 
+│©2023-2024 shadowBotInc 
 └─────────────────┈ ⳹\n\n ` }, {quoted: xeonses});
               await delay(1000 * 2) 
               process.exit(0)
